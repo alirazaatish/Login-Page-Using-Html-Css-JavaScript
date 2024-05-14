@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="Card">
+            <h1 id="title" style="color: blue;">REGISTER</h1>
+            <div class="Input_data">
+                <div class="input_group">
+                    <div class="input_field" id="userName">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text"  placeholder="Username">
+                    </div>
+                    <div class="input_field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" id="userEmail" placeholder="Email">
+                    </div>
+                    <div class="input_field" id="userPassword">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password"  placeholder="Password">
+                    </div>
+                    <div class="input_field" id="confirmPassword">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password"  placeholder="Confirm Password">
+                    </div>
+                    <div class="summit-btn">
+                        <button type="button" id="submitBtn">Submit</button>
+                    </div>
+                    <label for="read-me-checkbox">
+                        <input type="checkbox" id="read-me-checkbox">
+                        Remember me!
+                    </label>
+                    <div class="btn_group">
+                        <button type="button" class="disable" id="loginBtn">LOGIN</button>
+                        <button type="button"  id="rigisterBtn">RIGISTER</button>
+                    </div>
+                    <p><a href="#" >Forget Password?</a></p>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <script src="./opp.js"></script>
+</body>
+</html>
